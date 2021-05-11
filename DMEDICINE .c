@@ -1,4 +1,4 @@
-/*judul 2 : D Medicine
+/* DESC 1 : judul 2 : D Medicine
 Deskripsi : Program untuk pembelian obat secara online terdiri dari akun admin dan member. 
 Akun member dapat melihat list obat berdasarkan jenis penyakitnya. 
 Pembelian obat bisa dilakukan pada menu pembelian yang berisikan 
@@ -10,6 +10,21 @@ fitur :
 - Registrasi dan login.
 - Member : ada 3 menu (beli obat bisa COD atau dari bank, logout).
 - Admin : ada (tambah obat, update no rek bank, hapus obat, update obat, log out, update akun member).
+*/
+
+/*DESC 2 : Deskripsi : Program untuk pembelian obat secara online terdiri dari akun admin dan member. 
+Sebelum dapat membeli obat, pembeli diharuskan untuk registrasi akun member yang terdiri dari username, password, nama, alamat, dan No HP. 
+kemudian login menggunakan username dan password yang telah dibuat. Akun MEMBER hanya memiliki fitur unutk membeli obat. 
+Alur pembelian obat dimulai dengan menampilkan list obat berdasarkan kategori penyakitnya (Contoh : DEMAM, PERNAPASAN, DLL) dengan batasan minimal 3 kategori penyakit.
+Setelah memilih kategori penyakit, daftar obat yang tersedia akan ditampilkan secara terurut berdasarkan nama obat (ascending). 
+Kemudian akun member dapat memilih obat yang tersedia untuk dibeli. 
+Setelah memilih obat tertentu yang ingin dibeli, pembeli akan memilih metode pembayaran salah satu dari 2 metode pembayaran (COD/Transfer Bank). 
+Pemilihan metode pembayaran secara COD hanya akan menampilkan pemberitahuan bahwa obat akan segera dikirim. 
+Pemilihan metode pembayaran secara Transfer Bank akan menampilkan suatu NO Rekening virtual account dengan format KODE + NO HP PEMBELI 
+(Contoh => Kode : 1337; NO HP : 0812111122223333; NO REKENING : 13370812111122223333).  
+Akun ADMIN memiliki 7 fitur yaitu menambah data obat (NAMA OBAT, KATEGORI PENYAKIT, DOSIS (mg), HARGA), 
+mengupdate informasi obat, menghapus data obat, mengupdate kode virtual account, mengupdate akun member, menghapus akun member, dan logout.
+
 */
 #include<stdio.h>
 #include<stdlib.h>
